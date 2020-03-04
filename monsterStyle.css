@@ -1,11 +1,42 @@
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.container{
+    height: 80vh;
+    width: 95vw;
+    padding: 0 5vh 5vh 5vh;
+    text-align: center;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px 25px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid purple;
+}
+
+button:hover {
+    background-color: purple;
+    color: white;
+  }
+
 #body{
     border: 1px solid #333;
     border-radius: 50%;
-    margin: 50px 0 0 50px;
-    text-align: center;
     min-height: auto;
     position: relative;
-
+    display: inline-block;
 }
 
 /* ------EYES---------------------------------------------------- */
@@ -66,6 +97,5 @@
     float: left;
     background: linear-gradient(yellow, white);
     border-radius: 0 0 30% 10%;
-    /* margin: 0 5px 0 3px; */
 }
 
