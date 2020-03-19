@@ -52,7 +52,6 @@ button:hover {
 
 #eyes{
     display: flex;
-    /* margin: 20% 0 0 0; */
     justify-content: center;
 }
 
@@ -98,4 +97,3 @@ button:hover {
     background: linear-gradient(yellow, white);
     border-radius: 0 0 30% 10%;
 }
-
